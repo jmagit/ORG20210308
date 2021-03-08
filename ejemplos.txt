@@ -1,0 +1,47 @@
+c1 int
+c2 varchar(8000)
+c3 varchar(6000)
+c4 varchar(8000)
+
+
+c1 4
+c2 5000
+c3 6000
+c4 1000
+
+PD
+c3 -> Lob
+c2 -> Lob
+
+T1: 1000F LMF: 5000bytes   Pag: 1000
+T2: 100000F LMF: 8bytes     Pag: 100
+
+
+RPK1=PK1,PK2,PK3,PK4
+RPK2=PK5,PK6,PK7
+PK1,PK2,PK3,PK4,PK5,PK6,PK7, valor (4byte)
+4byte
+
+RPK1, RPK2, valor
+
+Prod Clientes
+
+1 5 15
+
+7
+
+CF
+
+
+FI, FF
+
+Modalidad: P, T
+
+---FI
+???FF
+FI+FF, numhoras+modalidad
+
+
+
+
+
